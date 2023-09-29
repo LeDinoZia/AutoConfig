@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/AutoConfig/static/css/main.21f72191.css",
-    "main.js": "/AutoConfig/static/js/main.f86ba224.js",
+    "main.css": "/AutoConfig/static/css/main.ec165f33.css",
+    "main.js": "/AutoConfig/static/js/main.2db2741f.js",
     "static/js/498.2e2822c9.chunk.js": "/AutoConfig/static/js/498.2e2822c9.chunk.js",
     "static/js/703.14df1835.chunk.js": "/AutoConfig/static/js/703.14df1835.chunk.js",
     "static/js/9.028293c6.chunk.js": "/AutoConfig/static/js/9.028293c6.chunk.js",
     "static/js/787.6d185335.chunk.js": "/AutoConfig/static/js/787.6d185335.chunk.js",
     "index.html": "/AutoConfig/index.html",
-    "main.21f72191.css.map": "/AutoConfig/static/css/main.21f72191.css.map",
-    "main.f86ba224.js.map": "/AutoConfig/static/js/main.f86ba224.js.map",
+    "main.ec165f33.css.map": "/AutoConfig/static/css/main.ec165f33.css.map",
+    "main.2db2741f.js.map": "/AutoConfig/static/js/main.2db2741f.js.map",
     "498.2e2822c9.chunk.js.map": "/AutoConfig/static/js/498.2e2822c9.chunk.js.map",
     "703.14df1835.chunk.js.map": "/AutoConfig/static/js/703.14df1835.chunk.js.map",
     "9.028293c6.chunk.js.map": "/AutoConfig/static/js/9.028293c6.chunk.js.map",
     "787.6d185335.chunk.js.map": "/AutoConfig/static/js/787.6d185335.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.21f72191.css",
-    "static/js/main.f86ba224.js"
+    "static/css/main.ec165f33.css",
+    "static/js/main.2db2741f.js"
   ]
 }
