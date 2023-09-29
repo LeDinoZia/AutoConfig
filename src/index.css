@@ -306,3 +306,22 @@ footer {
     font-size: 10px;
   }
 }
+
+@media (max-width: 400px) {
+
+  span {
+    width: 20px;
+    height: 20px;
+  }
+
+  .listeJantes input[type="radio"] {
+    width: 12px !important;
+    height: 12px !important;
+    bottom: 2px;
+  }
+
+  .listeJantes input[type="radio"]:checked::before {
+    width: 7px;
+    height: 7px;
+  }
+}
