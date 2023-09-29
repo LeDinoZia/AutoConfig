@@ -49,7 +49,7 @@ function MenuConfiguration({ setCouleurSelectionnee, setJanteSelectionnee }) {
                 name="jante" 
                 value={jante.type} 
                 onChange={() => setJanteSelectionnee(jante.type)}
-                defaultCheck={jante.type === '1'}
+                defaultChecked={jante.type === '1'}
               />
               <label htmlFor={`jante-${jante.type}`}>{jante.description}</label>
             </li>
