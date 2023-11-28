@@ -1,70 +1,43 @@
-# Getting Started with Create React App
+# AutoConfig
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Un site de configurateur de voiture réalisé en React
 
-## Available Scripts
+![Image Présentation](https://github.com/Luc4gbox/AutoConfig/public/AutoConfig_présentation.png)
 
-In the project directory, you can run:
+## Description
 
-### `npm start`
+AutoConfig est une application web interactive développée en React, conçue pour permettre aux utilisateurs de configurer leur voiture à leur goût. 
+Ce projet a été développé dans le cadre de mon apprentissage de React. Les utilisateurs ont la possibilité de télécharger une facture comprenant le
+détails des choix de leur voiture.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Installation
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Pour installer et exécuter AutoConfig localement, suivez ces étapes :
 
-### `npm test`
+Clonez le dépôt :
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+```
+git clone https://github.com/Luc4gbox/AutoConfig
+```
 
-### `npm run build`
+Installer les dépendances
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+```
+cd AutoConfig
+npm install
+```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Lancer le projet
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+```
+npm start
+```
 
-### `npm run eject`
+## Utilisation
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Vous pouvez visualiser la voiture sous 4 angles différents, vous avez la possibilité de changer la couleur de la carrosserie mais également la couleur des jantes.
+Dans le futur, j'ai prévu d'ajouter d'autres voitures.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Note Personnelle
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Ceci est le premier projet React que j'ai fait, et je suis conscient qu'il y a des éléments à améliorer. Je suis ouvert à tout retour ou suggestion pour amélioration. N'hésitez pas à ouvrir une issue sur GitHub si vous avez des questions ou des préoccupations. Merci de votre compréhension.
