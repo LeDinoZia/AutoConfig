@@ -2,7 +2,7 @@
 
 Un site de configurateur de voiture réalisé en React
 
-![Image Présentation](https://github.com/Luc4gbox/AutoConfig/public/AutoConfig_présentation.png)
+![Image Présentation](https://github.com/Luc4gbox/AutoConfig/blob/main/AutoConfig_présentation.png)
 
 ## Description
 
