@@ -101,18 +101,13 @@ span {
 
 .listeJantes input[type="radio"]:checked::before {
   content: '';
-  /* Contenu vide pour le pseudo-élément */
   position: absolute;
   width: 12px;
-  /* Largeur du coche */
   height: 12px;
-  /* Hauteur du coche */
   background-color: red;
-  /* Couleur du coche */
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  /* Centrer le coche dans la case */
 }
 
 /* Style pour le conteneur principal */
@@ -126,6 +121,7 @@ span {
   flex: 1;
 }
 
+/* Style pour le footer */
 footer {
   padding: 10px;
   background-color: #f1f1f1;
@@ -155,6 +151,7 @@ footer {
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
   transition: all 0.15s;
   font-size: 20px;
+  margin-bottom: 2.5vw;
 }
 
 .boutonFacture:hover {
@@ -180,28 +177,27 @@ footer {
 }
 
 .boutonNavigation {
+  /* Effet Carbone */
   background-color: rgb(32, 32, 32);
   background-image: linear-gradient(45deg, rgb(33, 32, 32) 25%, transparent 25%, transparent 75%, rgb(33, 32, 32) 75%, rgb(33, 32, 32)), linear-gradient(45deg, rgb(33, 32, 32) 25%, transparent 25%, transparent 75%, rgb(33, 32, 32) 75%, rgb(33, 32, 32)), linear-gradient(to bottom, rgb(8, 8, 8), rgb(32, 32, 32));
   background-size: 10px 10px, 10px 10px, 10px 5px;
   background-position: 0px 0px, 5px 5px, 0px 0px;
-  color: #fff; /* Texte blanc */
+  color: #fff;
   border: none;
-  padding: 10px 20px; /* Padding plus grand pour un aspect plus moderne */
+  padding: 10px 20px;
   cursor: pointer;
-  border-radius: 5px; /* Coins arrondis */
-  transition: background-color 0.3s, transform 0.3s; /* Transition pour le survol et l'activation */
+  border-radius: 5px;
+  transition: background-color 0.3s, transform 0.3s;
 }
 
 .boutonNavigation:hover {
-  background-color: #555; /* Couleur de fond un peu plus claire au survol */
-  transform: translateY(-2px); /* Déplacement vers le haut au survol */
+  background-color: #555;
+  transform: translateY(-2px);
 }
 
 .boutonNavigation:active {
-  transform: translateY(0); /* Retour à la position initiale lors du clic */
+  transform: translateY(0);
 }
-
-/* ... (Votre CSS existant) ... */
 
 /* Styles pour tablettes */
 @media (min-width: 600px) and (max-width: 900px) {
@@ -270,8 +266,8 @@ footer {
   }
 
   .boutonNavigation {
-    padding: 5px; /* Réduisez la valeur de padding pour réduire la taille */
-    font-size: 10px; /* Réduisez la taille de la police */
+    padding: 5px;
+    font-size: 10px;
     margin: 0;
     width: 60px;
   }
@@ -279,6 +275,7 @@ footer {
   .boutonFacture {
     padding: 6px 12px;
     font-size: 14px;
+    margin-bottom: 20px;
   }
 
   span {

@@ -2,10 +2,10 @@ import React, { useState } from 'react';
 
 function VueVoiture({ couleurSelectionnee, janteSelectionnee }) {
   const angles = [
-    `image/porsche${couleurSelectionnee}1_${janteSelectionnee}.jpg`,
-    `image/porsche${couleurSelectionnee}2_${janteSelectionnee}.jpg`,
-    `image/porsche${couleurSelectionnee}3_${janteSelectionnee}.jpg`,
-    `image/porsche${couleurSelectionnee}4_${janteSelectionnee}.jpg`,
+    `/AutoConfig/image/porsche${couleurSelectionnee}1_${janteSelectionnee}.jpg`,
+    `/AutoConfig/image/porsche${couleurSelectionnee}2_${janteSelectionnee}.jpg`,
+    `/AutoConfig/image/porsche${couleurSelectionnee}3_${janteSelectionnee}.jpg`,
+    `/AutoConfig/image/porsche${couleurSelectionnee}4_${janteSelectionnee}.jpg`,
   ];
 
   const [indiceAngleActuel, setIndiceAngleActuel] = useState(0);

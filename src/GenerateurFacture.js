@@ -36,7 +36,7 @@ function GenerateurFacture({ configurationVoiture }) {
     });
 
     // URL de l'image de la voiture
-    const imageUrl = `image/porsche${couleurSelectionnee}1_${janteSelectionnee}.jpg`;
+    const imageUrl = `/AutoConfig/image/porsche${couleurSelectionnee}1_${janteSelectionnee}.jpg`;
 
     // Charger et ajouter l'image de la voiture
     const img = new Image();
